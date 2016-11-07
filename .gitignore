@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+dist/
+
+videos/
+
+node_modules
+node_modules/**/*

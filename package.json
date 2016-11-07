@@ -1,0 +1,14 @@
+{
+  "name": "demo-videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getStarted": "demokit getStarted.js"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "demokit": "^3.0.0"
+  }
+}
