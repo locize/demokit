@@ -38,11 +38,11 @@ module.exports =
 
     <using window="locize">
       {/* login page */}
-      <wait.visible selector = ".e2e-login-page"/>
+      <wait.visible selector=".e2e-login-page"/>
       <click selector=".e2e-register-link" />
 
       {/* register page */}
-      <wait.visible selector = ".e2e-register-page"/>
+      <wait.visible selector=".e2e-register-page"/>
       <click selector="input[type=text][name=firstname]" />
       <type>{firstname}</type>
       <click selector="input[type=text][name=lastname]" />

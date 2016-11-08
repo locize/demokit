@@ -35,7 +35,7 @@ module.exports =
 
     <using window="locize">
       {/* login page */}
-      <wait.visible selector = ".e2e-login-page"/>
+      <wait.visible selector=".e2e-login-page"/>
       <click selector="input[type=text][name=username]" />
       <type>{username}</type>
       <click selector="input[type=password][name=password]" />
@@ -55,7 +55,7 @@ module.exports =
       <click selector={`.e2e-namespace-link-${ns}`} />
 
       {/* editor page */}
-      <wait.visible selector = ".e2e-editor-page"/>
+      <wait.visible selector=".e2e-editor-page"/>
       <click selector=".e2e-editor-filter-add-key-button" />
       <click selector="input[type=text][name=key]" />
       <type>{segmentKey}</type>
