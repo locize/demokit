@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "getStarted": "demokit getStarted.js"
+    "getStarted": "demokit getStarted.js",
+    "addNamespace": "demokit addNamespace.js"
   },
   "keywords": [],
   "author": "",
