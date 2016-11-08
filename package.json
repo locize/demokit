@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "getStarted": "demokit getStarted.js",
-    "addNamespace": "demokit addNamespace.js"
+    "addNamespace": "demokit addNamespace.js",
+    "editKeys": "demokit editKeys.js"
   },
   "keywords": [],
   "author": "",
