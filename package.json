@@ -6,6 +6,7 @@
   "scripts": {
     "getStarted": "demokit getStarted.js",
     "addNamespace": "demokit addNamespace.js",
+    "addLanguage": "demokit addLanguage.js",
     "editKeys": "demokit editKeys.js"
   },
   "keywords": [],
