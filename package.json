@@ -8,7 +8,8 @@
     "addNamespace": "demokit addNamespace.js",
     "addLanguage": "demokit addLanguage.js",
     "addVersion": "demokit addVersion.js",
-    "editKeys": "demokit editKeys.js"
+    "editKeys": "demokit editKeys.js",
+    "import": "demokit import.js"
   },
   "keywords": [],
   "author": "",
