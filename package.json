@@ -10,7 +10,8 @@
     "addVersion": "demokit addVersion.js",
     "editKeys": "demokit editKeys.js",
     "import": "demokit import.js",
-    "subscribe": "demokit subscribe.js"
+    "subscribe": "demokit subscribe.js",
+    "changeRefLng": "demokit changeRefLng.js"
   },
   "keywords": [],
   "author": "",

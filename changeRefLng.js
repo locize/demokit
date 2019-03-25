@@ -9,7 +9,6 @@ const { key } = require('demokit/keyboard');
 const username = 'carl.winston';
 const password = '123qweasd';
 const slug = 'rbe0i3cw';
-const lng = 'it';
 
 module.exports =
 <demo>
@@ -40,15 +39,19 @@ module.exports =
 
       {/* dashboard page */}
       <wait.visible selector={`.e2e-project-link-${slug}`}/>
-      <recording.start filePath="videos/addLanguage" />
+      <recording.start filePath="videos/changeRefLng" />
       <click selector={`.e2e-project-link-${slug}`} />
 
       {/* project page */}
-      <click selector=".e2e-add-language-link" />
-      <click selector="input[type=search]" />
-      <type>{lng}</type>
-      <key code="enter"/>
-      <click selector=".e2e-add-language-button" />
+      <click selector=".e2e-more-button-menu button:nth-child(2)" />
+      <wait delay={200}/>
+      <click selector=".e2e-settings-button" />
+      <click selector=".e2e-project-info-more-button-menu button:nth-child(1)" />
+      <wait delay={200}/>
+      <click selector=".e2e-open-change-ref-lng-button" />
+      <click selector="select[name=language]" />
+      <wait delay={2000}/>
+      {/* continue manually */}
 
       <wait delay={2000}/>
     </using>

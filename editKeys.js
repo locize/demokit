@@ -8,7 +8,7 @@ const { key } = require('demokit/keyboard');
 
 const username = 'carl.winston';
 const password = '123qweasd';
-const slug = 'w4rxnto3';
+const slug = 'rbe0i3cw';
 const ns = 'contact-page';
 const addSegmentKey = 'contact.response';
 const addSegmentValue = 'Thank you!';
